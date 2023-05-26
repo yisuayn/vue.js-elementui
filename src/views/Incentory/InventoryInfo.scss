@@ -1,0 +1,23 @@
+.grid-content1 {
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.el-table {
+    max-height:55vh ;
+}
+
+.bg-purple-top {
+    padding: 0 31px;
+    flex-direction: column;
+    .block{display: flex;justify-content: space-between;width: 100%;padding: 15px 0;}
+    .el-pagination {
+        margin-bottom: 10px;
+        float: right;
+    }
+}
+
+.bg-purple {
+    width: 100%;
+    height: 50vh;
+}

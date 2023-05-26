@@ -1,0 +1,16 @@
+@import url('../../assets/scss/assets.scss');
+.layout {
+    height: 100vh;
+    .el-header{padding: 0;}
+}
+
+.el-menu-vertical-demo {
+    height: calc(100vh - 60px);
+}
+
+.el-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

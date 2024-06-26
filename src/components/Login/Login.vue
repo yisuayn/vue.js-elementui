@@ -34,17 +34,17 @@
                 <div class="input-box">
                     <span class="icon"><i class="el-icon-user-solid"></i></span>
                     <input type="name" required>
-                    <label>Username</label>
+                    <label>用户名</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"><i class="el-icon-message"></i></span>
                     <input type="email" required>
-                    <label>Email</label>
+                    <label>电子邮件</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"> <i class="el-icon-view"></i></span>
                     <input type="password" required>
-                    <label>PassWord</label>
+                    <label>密码</label>
                 </div>
                 <div class="remember-forgot">
                     <label><input type="checkbox">I agree to the terms & conditions</label>

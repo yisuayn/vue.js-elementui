@@ -2,21 +2,21 @@
     <div class="wrapper" :class="{ active: isActive }">
         <!-- <span class="icon-close"><i class="el-icon-error"></i></span> -->
         <div class="form-box login">
-            <h2>Login</h2>
+            <h2>登录</h2>
             <form action="#" model="loginfrom">
                 <div class="input-box">
                     <span class="icon"><i class="el-icon-message"></i></span>
                     <input type="email" required v-model="loginfrom.email">
-                    <label>Email</label>
+                    <label>邮箱号</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"> <i class="el-icon-view"></i></span>
                     <input type="password" required v-model="loginfrom.password">
-                    <label>PassWord</label>
+                    <label>密码</label>
                 </div>
                 <div class="remember-forgot">
                     <label><input type="checkbox" v-model="loginfrom.checkbox">Remember me</label>
-                    <a href="#">Forgot PassWord?</a>
+                    <a href="#">忘记密码</a>
                 </div>
                 <button type="submit" class="btn" @click="submit()">
                     Login

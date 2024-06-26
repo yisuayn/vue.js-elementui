@@ -50,10 +50,10 @@
                     <label><input type="checkbox">I agree to the terms & conditions</label>
                 </div>
                 <button type="submit" class="btn">
-                    Register
+                    注册
                 </button>
                 <div class="login-register">
-                    <p>Already have an account?
+                    <p>是否已经拥有账号
                         <a class="register-link" @click="changestyle">Login</a>
                     </p>
                 </div>
